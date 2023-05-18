@@ -20,8 +20,8 @@ const appMenuItems = <MenuItems>[
       link: '/buttons',
       iconData: Icons.smart_button_outlined),
   MenuItems(
-      title: 'botones',
+      title: 'credit card',
       subTitle: 'lista de botones',
-      link: '/buttons',
+      link: '/cards',
       iconData: Icons.credit_card),
 ];
