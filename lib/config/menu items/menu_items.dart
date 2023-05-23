@@ -24,4 +24,14 @@ const appMenuItems = <MenuItems>[
       subTitle: 'lista de botones',
       link: '/cards',
       iconData: Icons.credit_card),
+  MenuItems(
+      title: 'progres indicator',
+      subTitle: 'indicador de progreso',
+      link: '/progress',
+      iconData: Icons.refresh_rounded),
+  MenuItems(
+      title: 'snackbars',
+      subTitle: 'indicador de progreso',
+      link: '/snackbars',
+      iconData: Icons.refresh_rounded),
 ];
