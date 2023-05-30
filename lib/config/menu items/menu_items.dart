@@ -34,4 +34,19 @@ const appMenuItems = <MenuItems>[
       subTitle: 'indicador de progreso',
       link: '/snackbars',
       iconData: Icons.refresh_rounded),
+  MenuItems(
+      title: 'animated container',
+      subTitle: 'indicador de progreso',
+      link: '/animated',
+      iconData: Icons.check_box_outline_blank),
+  MenuItems(
+      title: 'ui CONTROLS',
+      subTitle: 'indicador de progreso',
+      link: '/ui-controls',
+      iconData: Icons.car_rental_outlined),
+  MenuItems(
+      title: 'App tutorial ',
+      subTitle: 'tutorial about how to use the app',
+      link: '/app-tutorial',
+      iconData: Icons.question_mark_rounded),
 ];
