@@ -4,20 +4,22 @@ var colorList = <Color>[
   Colors.amber,
   Colors.purple,
   Colors.pink,
-  Colors.pink.shade50,
   Colors.green,
+  Colors.orange,
+  Colors.indigo,
 ];
 
 class AppTheme {
   final int selectedColor;
-
-  AppTheme({this.selectedColor = 0})
+  final bool darkMode;
+  AppTheme({this.darkMode = false, this.selectedColor = 0})
       : assert(selectedColor >= 0, 'el color debe ser mayor que sero'),
         assert(selectedColor < colorList.length,
             'the selected color must be ther in less that ${colorList.length - 1}');
 
   ThemeData getTheme() => ThemeData(
       useMaterial3: true,
+      brightness: darkMode ? Brightness.dark : Brightness.light,
       colorSchemeSeed: colorList[selectedColor],
       appBarTheme: AppBarTheme(
         centerTitle: true,

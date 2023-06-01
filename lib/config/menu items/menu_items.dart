@@ -15,6 +15,11 @@ class MenuItems {
 
 const appMenuItems = <MenuItems>[
   MenuItems(
+      title: 'Contador',
+      subTitle: 'Contador de taps',
+      link: '/counterScreen',
+      iconData: Icons.plus_one_outlined),
+  MenuItems(
       title: 'botones',
       subTitle: 'lista de botones',
       link: '/buttons',
@@ -54,4 +59,9 @@ const appMenuItems = <MenuItems>[
       subTitle: 'tutorial about how to use the app',
       link: '/infiniteScroll',
       iconData: Icons.perm_device_information_rounded),
+  MenuItems(
+      title: 'Theme changer',
+      subTitle: 'change the color theme of the app',
+      link: '/themeChanger',
+      iconData: Icons.color_lens_outlined),
 ];
